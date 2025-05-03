@@ -20,14 +20,14 @@ class Buku {
 	
 	void pinjamBuku (String judul) {
 	for (Buku buku : koleksiBuku) {
-		if (buku.judul.equals(judul));
+		if (buku.judul.equals(judul)){
 		Peminjaman.add(buku);
 		break;	
 	}
 	}
 	void kembalikanBuku (String judul) {
 		for (Buku buku : Peminjaman) {
-			if (buku.judul.equals(judul));
+			if (buku.judul.equals(judul)){
 			Pengembalian.push(buku);
 			break;
 		}
