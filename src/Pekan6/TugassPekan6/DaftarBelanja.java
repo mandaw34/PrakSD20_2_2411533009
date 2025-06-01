@@ -90,10 +90,10 @@ public class DaftarBelanja {
         Node current = head;
         while (current != null) {
             if (current.data.nama.equalsIgnoreCase(nama)) {
-                System.out.println("Item ditemukan: " + current.data.nama + " (" + current.data.kuantitas + ") [" + current.data.kategori + "]");
+                System.out.println("Item ditemukan: " + curr.data.nama + " (" + curr.data.kuantitas + ") [" + curr.data.kategori + "]");
                 return;
             }
-            current = current.next;
+            curr = curr.next;
         }
         System.out.println("Item tidak ditemukan.");
     }
