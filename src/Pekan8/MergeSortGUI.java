@@ -68,10 +68,10 @@ public class MergeSortGUI extends JFrame {
 		add(controlPanel, BorderLayout.SOUTH);
 		add(scrollPane, BorderLayout.EAST);
 
-		// Tambahkan event listener
-		setButton.addActionListener(e -> setArrayFromInput());
-		stepButton.addActionListener(e -> performStep());
-		resetButton.addActionListener(e -> reset());
+		
+		//setButton.addActionListener(e -> setArrayFromInput());
+		//stepButton.addActionListener(e -> performStep());
+		//resetButton.addActionListener(e -> reset());
 	}
 
 	private void setArrayFromInput() {
