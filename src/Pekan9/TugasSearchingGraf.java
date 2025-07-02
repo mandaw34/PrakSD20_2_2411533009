@@ -68,8 +68,8 @@ public class TugasSearchingGraf {
     }
 
     private void printResult(String startNode, String goalNode) {
-        System.out.println("Nama: [Nama Mahasiswa]");
-        System.out.println("NIM: [NIM Mahasiswa]");
+        System.out.println("Nama: Devina Amanda Putri");
+        System.out.println("NIM: 2411533009");
         System.out.println("Node awal: " + startNode);
         System.out.println("Node tujuan: " + goalNode);
         System.out.println("Algoritma: DFS");
